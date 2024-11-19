@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "framer-motion": "^11.11.17",
     "next": "14.2.7",
     "react": "^18",
     "react-dom": "^18",
-    "react-type-animation": "^3.2.0"
+    "react-type-animation": "^3.2.0",
+    "resend": "^4.0.1-alpha.0"
   },
   "devDependencies": {
     "@types/node": "^20",
