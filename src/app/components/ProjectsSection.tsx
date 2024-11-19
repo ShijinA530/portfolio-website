@@ -69,32 +69,32 @@ const projectsData = [
     gitUrl: 'https://github.com/ShijinA530/Movies',
     previewUrl: 'https://movies-f.vercel.app',
   },
+  // {
+  //   id: 8,
+  //   title: 'Travel',
+  //   description: 'Shows a ticket available based on origin and destination',
+  //   image: '/images/projects/8.png',
+  //   tag: ['All', 'Web', 'Mobile'],
+  //   gitUrl: 'https://github.com/ShijinA530/Travel',
+  //   previewUrl: 'https',
+  // },
   {
     id: 8,
-    title: 'Travel',
-    description: 'Shows a ticket available based on origin and destination',
-    image: '/images/projects/8.png',
-    tag: ['All', 'Web', 'Mobile'],
-    gitUrl: 'https://github.com/ShijinA530/Travel',
-    previewUrl: 'https',
-  },
-  {
-    id: 5,
     title: 'Netflix Clone',
     description: 'Netflix clone using React',
     image: '/images/projects/5.png',
     tag: ['All', 'Web'],
-    gitUrl: '',
+    gitUrl: 'https://github.com/ShijinA530/Netflix',
     previewUrl: '',
   },
   {
-    id: 5,
+    id: 9,
     title: 'To-Do App',
     description: 'Todo app using React',
     image: '/images/projects/5.png',
     tag: ['All', 'Web', 'Mobile'],
-    gitUrl: '',
-    previewUrl: '',
+    gitUrl: 'https://github.com/ShijinA530/ToDo',
+    previewUrl: 'https://to-do-list666.vercel.app/',
   },
 ]
 
@@ -117,7 +117,7 @@ const ProjectsSection = () => {
   }
 
   return (
-    <section>
+    <section id='projects'>
       <h2 className='text-center text-4xl font-bold text-white mt-4'>
         My Projects
       </h2>
@@ -138,7 +138,7 @@ const ProjectsSection = () => {
           isSelected={tag === 'Mobile'}
         />
       </div>
-      <ul ref={ref} className='grid grid-cols-3 gap-8 md:gap-12 mt-8'>
+      <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12 mt-8'>
         {filteredProjects.map((project, index) => 
           <motion.li
             key={index}

@@ -57,7 +57,7 @@ const AboutSection = () => {
   }
 
   return (
-    <section className='text-white'>
+    <section id='about' className='text-white'>
       <div className='md:grid md:grid-cols-2 gap-8 py-16 px-4 xl:gap-16 sm:py-16 xl:px-16'>
         <Image
           src='https://dersyb7nfifdf.cloudfront.net/blog/2021/09/How_to_hire_a_software_developer_3.png'
