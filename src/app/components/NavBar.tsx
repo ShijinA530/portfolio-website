@@ -9,7 +9,7 @@ import MenuOverlay from './MenuOverlay'
 const navLinks = [
   {
     title: "Home",
-    path: "#"
+    path: "#home"
   },  
   {
       title: "About",
@@ -29,9 +29,9 @@ const NavBar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
 
   return (
-    <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212]  bg-opacity-90'>
+    <nav className='fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-20 bg-[#121212]  bg-opacity-90'>
       <div className='flex flex-wrap  items-center justify-between mx-auto py-4 md:px-8 px-4'>
-        <Link href="/" className='text-2xl md:text-4xl text-white font-semibold'
+        <Link href="#home" className='text-2xl md:text-4xl text-white font-semibold'
         >
           LOGO
         </Link>

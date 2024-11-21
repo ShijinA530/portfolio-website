@@ -26,8 +26,7 @@ const TabData = [
       <ul className='list-disc pl-2'>
         <li>Rajiv Gandhi Institute of Technology, Kottayam</li>
         <li>APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY</li>
-        <li>B.Tech</li>
-        <li>Computer Science and Engineering</li>
+        <li>B.Tech, Computer Science and Engineering</li>
         <li>CGPA: 7.41</li>
       </ul>
     )
@@ -37,8 +36,9 @@ const TabData = [
     title: 'Certifications',
     content: (
       <ul className='list-disc pl-2'>
-        <li>ES6: Modern JavaScript by Udemy</li>
+        <li>ES6: Modern JavaScript by Coursera</li>
         <li>SQL course certification by Udmey</li>
+        <li>Build blog using MERN stack by Udemy</li>
         <li>React skill quiz by Hackveda</li>
         <li>JavaScript skill quiz by Hackveda</li>
       </ul>
@@ -50,7 +50,7 @@ const AboutSection = () => {
   const [tab, setTab] = useState('skills')
   const [isPending, startTransition] = useTransition()
 
-  const handleTabChange = (id) => {
+  const handleTabChange = (id: string) => {
     startTransition(() => {
       setTab(id)
     })
@@ -72,7 +72,7 @@ const AboutSection = () => {
             working with Python, JavaScript, React, Redux, Node.js, Express, MongoDB,
             HTML, CSS and Git. I am a quick learner and I am always
             looking to expand my knowledge and skill set. I am a team player and 
-            I am excited to work with others to create amzing applications.
+            I am excited to work with others to create amazing applications.
           </p>
           <div className='flex flex-row mt-8'>
             <TabButton
