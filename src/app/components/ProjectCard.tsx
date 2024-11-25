@@ -2,7 +2,7 @@ import React from 'react'
 import { CodeBracketIcon, EyeIcon } from '@heroicons/react/24/solid'
 import Link from 'next/link'
 
-const ProjectCard = ({ title, description, imgUrl, gitUrl, previewUrl }) => {
+const ProjectCard = ({ title, description, imgUrl, gitUrl, previewUrl }: { title: string, description: string, imgUrl: string, gitUrl: string, previewUrl: string }) => {
   return (
     <div>
       <div
