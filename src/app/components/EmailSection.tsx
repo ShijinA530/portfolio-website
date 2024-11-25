@@ -14,7 +14,7 @@ const EmailSection = () => {
   const [send, setSend] = useState(false)
   const [error, setError] = useState('')
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setSubmitted(true)
     setSend(false)
