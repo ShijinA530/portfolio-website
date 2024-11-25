@@ -1,21 +1,21 @@
 import { Resend } from 'resend';
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const fromEmail = process.env.FROM_EMAIL;
+const adminEmail = process.env.FROM_EMAIL;
 
 export async function POST(req) {
   try {
     const { email, subject, message } = await req.json(); // Correctly parse the request body
-    console.log(message)
+    console.log(email, subject, message)
     const data = await resend.emails.send({
       from: 'onboarding@resend.dev',
-      to: ['shijinasasi835@gmail.com', email],
+      to: [adminEmail, email],
       subject: subject,
       react: (
         <>
-          <h1>{subject}</h1>
+          <h2>{subject}</h2>
           <p>Thank you for contacting us!</p>
-          <p>New message submitted</p>
+          <p>New message submitted.</p>
           <p>{message}</p>
         </>
       )

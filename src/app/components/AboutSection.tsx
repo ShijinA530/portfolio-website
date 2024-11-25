@@ -14,8 +14,9 @@ const TabData = [
         <li>MongoDB</li>
         <li>JavaScript</li>
         <li>React</li>
-        <li>Github</li>
         <li>Python</li>
+        <li>SQL</li>
+        <li>Github</li>
       </ul>
     )
   },
