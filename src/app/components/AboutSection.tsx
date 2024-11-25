@@ -96,7 +96,9 @@ const AboutSection = () => {
              </TabButton> 
           </div>
           <div className='mt-8'>
-            {TabData.find(t => t.id === tab)?.content}
+          {TabData.find(t => t.id === tab)?.content || (
+    <p className='text-red-500'>No content available for the selected tab.</p>
+  )}
           </div>
         </div>
       </div>
