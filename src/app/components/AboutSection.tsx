@@ -96,7 +96,7 @@ const AboutSection = () => {
              </TabButton> 
           </div>
           <div className='mt-8'>
-            {TabData.find(t => t.id === tab).content}
+            {TabData.find(t => t.id === tab)?.content}
           </div>
         </div>
       </div>
