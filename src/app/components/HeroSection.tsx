@@ -47,8 +47,8 @@ const HeroSection = () => {
                     <Image
                         src="/images/me.jpg" 
                         alt="Profile picture"
-                        width={300}  // Matches the container size
-                        height={300} // Matches the container size
+                        width={300}  
+                        height={300} 
                         className="absolute rounded-full object-cover w-full h-full top-0 left-0"
                     />
                 </div>
