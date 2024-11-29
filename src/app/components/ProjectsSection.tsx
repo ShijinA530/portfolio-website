@@ -84,8 +84,8 @@ const projectsData = [
     description: 'Netflix clone using React',
     image: '/images/projects/8.png',
     tag: ['All', 'Web'],
-    gitUrl: 'https://netflix-clone-666.vercel.app/',
-    previewUrl: '',
+    gitUrl: 'https://github.com/ShijinA530/Netflix',
+    previewUrl: 'https://netflix-clone-666.vercel.app/',
   },
   {
     id: 9,
