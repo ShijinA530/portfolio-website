@@ -85,7 +85,7 @@ const projectsData = [
     image: '/images/projects/8.png',
     tag: ['All', 'Web'],
     gitUrl: 'https://github.com/ShijinA530/Netflix',
-    previewUrl: 'https://netflix-clone-666.vercel.app/',
+    previewUrl: 'https://netflix123-clone.vercel.app/',
   },
   {
     id: 9,
