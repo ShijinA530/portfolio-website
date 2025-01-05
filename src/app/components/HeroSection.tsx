@@ -30,7 +30,7 @@ const HeroSection = () => {
                     />
                 </h1>
                 <p className='text-[#ADB7BE] text-lg mb-6 lg:text-xl'>Whether you want a website that packs a punch or in need of a sleek and polished site, I've got the skills and creativity to make your vision a reality.</p>
-                <Link href='https://www.papermark.io/view/cm3qwhfpe000coucfrlzajyh0'>
+                <Link href='https://www.papermark.io/view/cm5j6tylm0001kzgxop380q5l'>
                     {/* <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">Hire Me</button> */}
                     <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white border mt-3">
                         <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
